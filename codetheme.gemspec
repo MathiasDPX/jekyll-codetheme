@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name = "tonic-starter"
+  spec.name = "codetheme"
   spec.version = "0.1.0"
   spec.authors = [""]
   spec.email = [""]
