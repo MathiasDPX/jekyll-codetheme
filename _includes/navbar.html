@@ -1,0 +1,22 @@
+{% for entry in site.navigation %}
+{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+    {% if fullurl == page.url %}
+        {% assign current_page = fullurl %}
+        {% break %}
+    {% elsif page.url contains fullurl %}
+        {% assign current_page = fullurl %}
+    {% endif %}
+{% endfor %}
+
+<nav>
+    <ul>
+    {% for entry in site.navigation %}
+        {% if entry.url == current_page %}
+            <li class="current"><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a><div id="underline"></li>
+        {% else %}
+            <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endif %}
+        {% assign sublinks = entry.sublinks %}
+    {% endfor %}
+    </ul>
+</nav>

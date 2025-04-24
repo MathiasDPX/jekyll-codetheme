@@ -7,6 +7,76 @@ body {
     font-family: consolas;
     margin: auto;
     max-width: 70ch;
-    color: #ABB29B;
+    color: #ececec;
     background-color: #16191D;
+}
+
+a {
+    color: #61AFEF;
+}
+
+nav { /* Navbar, see _includes/navbar.html */
+    li {
+        display: inline-block;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0 0 0 0;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li:hover {
+        background-color: #323842;
+    }
+
+    li.current {
+        background-color: #23272E;
+    }
+
+    li a {
+        text-decoration: none;
+    }
+
+    li div#underline {
+        background-color: #b4b4b4;
+        position:relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        height: 5%;
+        bottom: calc(-0.5em + 5%);
+    }
+}
+
+pre.highlight {
+    background-color: #1F2228;
+    padding: 0.5em;
+    border-radius: 0.5em;
+
+    code { /* Codeblocks */
+        span.c1 {
+            color: #7f848e;
+        }
+        span.nf, span.o {
+            color: #56b6c2;
+        }
+        span.p, span.mi {
+            color: #d19a66;
+        }
+        span.s, span.sh, span.s2, span.dl {
+            color: #98c379;
+        }
+        span.n {
+            color: #abb2bb;
+        }
+        span.k, span.si, span.sa, span.kd {
+            color: #c678dd;
+        }
+        span.nx, span.p+span.n:has(+span.p) {
+            color: #e5c07b;
+        }
+    }
 }

@@ -1,5 +1,12 @@
-title: codetheme
+title: Codetheme
 description: "A theme that aim to look like VSCode"
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
+
+navigation:
+- title: Home
+  url: /
+
+- title: Links
+  url: /links
