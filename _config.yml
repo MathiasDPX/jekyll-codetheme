@@ -1,5 +1,5 @@
-title: tonic-starter
-description: ""
+title: codetheme
+description: "A theme that aim to look like VSCode"
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
