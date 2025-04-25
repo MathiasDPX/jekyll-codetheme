@@ -5,4 +5,4 @@ layout: default
 
 # Useful links
 
-[github](https://github.com/MathiasDPX)
+[github](https://github.com/MathiasDPX){:target="_blank"}
