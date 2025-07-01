@@ -5,4 +5,5 @@ layout: default
 
 # Useful links
 
-[github](https://github.com/MathiasDPX){:target="_blank"}
+[GitHub Repository](https://github.com/MathiasDPX/jekyll-codetheme){:target="_blank"}
+[Tonic](https://tonic.hackclub.com/){:target="_blank"}
