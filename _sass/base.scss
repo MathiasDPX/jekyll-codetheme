@@ -15,6 +15,12 @@ a {
     color: #61AFEF;
 }
 
+blockquote {
+    border-left: 4px solid #409EFF;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
 nav { /* Navbar, see _includes/navbar.html */
     li {
         display: inline-block;
