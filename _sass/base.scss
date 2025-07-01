@@ -15,10 +15,63 @@ a {
     color: #61AFEF;
 }
 
+$bq-note: #409EFF;
+$bq-tip: #09B43A;
+$bq-important: #B87FFF;
+$bq-warning: #E09B13;
+$bq-caution: #FF6A69;
+
 blockquote {
-    border-left: 4px solid #409EFF;
+    border-left: 4px solid #7f848e;
     padding-left: 1rem;
+    padding-bottom: 1px;
+    padding-top: 4px;
     margin: 1rem 0;
+
+    &[type="note"] {
+        &::before {
+            content: 'Note';
+            color: $bq-note;
+            font-size: 1.05em;
+        }
+        border-left-color: $bq-note;
+    }
+
+    &[type="tip"] {
+        &::before {
+            content: 'Tip';
+            color: $bq-tip;
+            font-size: 1.05em;
+        }
+        border-left-color: $bq-tip;
+    }
+
+    &[type="important"] {
+        &::before {
+            content: 'Important';
+            color: $bq-important;
+            font-size: 1.05em;
+        }
+        border-left-color: $bq-important;
+    }
+
+    &[type="warning"] {
+        &::before {
+            content: 'Warning';
+            color: $bq-warning;
+            font-size: 1.05em;
+        }
+        border-left-color: $bq-warning;
+    }
+
+    &[type="caution"] {
+        &::before {
+            content: 'Caution';
+            color: $bq-caution;
+            font-size: 1.05em;
+        }
+        border-left-color: $bq-caution;
+    }
 }
 
 nav { /* Navbar, see _includes/navbar.html */

@@ -7,7 +7,11 @@ layout: default
 
 **Codetheme** is a theme that aim to look like vscode with color, font...
 
-> Made by {% mention U080HHYN0JD %} for {% mention C08K7ARJ58U %}
+Made by {% mention U080HHYN0JD %} for {% mention C08K7ARJ58U %}
+
+<br>
+
+## code highlights
 
 ```python
 # Python
@@ -30,3 +34,19 @@ function greet(name) {
 }
 greet(you);
 ```
+
+## blockquote like github alerts
+> Useful information that users should know, even when skimming content.
+{: type="note"}
+
+> Helpful advice for doing things better or more easily.
+{: type="tip"}
+
+> Key information users need to know to achieve their goal.
+{: type="important"}
+
+> Urgent info that needs immediate user attention to avoid problems.
+{: type="warning"}
+
+> Advises about risks or negative outcomes of certain actions.
+{: type="caution"}
