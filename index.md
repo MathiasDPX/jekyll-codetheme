@@ -7,7 +7,7 @@ layout: default
 
 **Codetheme** is a theme that aim to look like vscode with color, font...
 
-Made by {% hackclub U080HHYN0JD %} for {% hackclub C08K7ARJ58U %}
+Made by {% mention U080HHYN0JD %} for {% mention C08K7ARJ58U %}
 
 ```python
 # Python
