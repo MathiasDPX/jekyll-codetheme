@@ -9,7 +9,9 @@ layout: default
 
 Made by {% mention U080HHYN0JD %} for {% mention C08K7ARJ58U %}
 
-<br>
+<!-- use current timestamp for the latest version of the preview -->
+![Opengraph preview of this repository](https://opengraph.githubassets.com/{{ 'now' | date:'%s' }}/MathiasDPX/jekyll-codetheme)
+*Opengraph preview of this repository*
 
 ## code highlights
 

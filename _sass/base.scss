@@ -15,6 +15,22 @@ a {
     color: #61AFEF;
 }
 
+p {
+    img:has(+ em) {
+        display: block;
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    img + em {
+        text-align: center;
+        color: #cecece;
+        display: block;
+        padding-top: 0.4em;
+        width: 100%;
+    }
+}
+
 $bq-note: #409EFF;
 $bq-tip: #09B43A;
 $bq-important: #B87FFF;
