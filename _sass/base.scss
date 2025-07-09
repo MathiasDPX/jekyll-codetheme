@@ -4,7 +4,7 @@ body {
 
 body {
     background-color: #fff;
-    font-family: consolas;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     margin: auto;
     max-width: 70ch;
     color: #ececec;
@@ -44,11 +44,14 @@ blockquote {
     padding-top: 4px;
     margin: 1rem 0;
 
+    &::before {
+        font-size: 1.05em;
+    }
+
     &[type="note"] {
         &::before {
             content: 'Note';
             color: $bq-note;
-            font-size: 1.05em;
         }
         border-left-color: $bq-note;
     }
@@ -57,7 +60,6 @@ blockquote {
         &::before {
             content: 'Tip';
             color: $bq-tip;
-            font-size: 1.05em;
         }
         border-left-color: $bq-tip;
     }
@@ -66,7 +68,6 @@ blockquote {
         &::before {
             content: 'Important';
             color: $bq-important;
-            font-size: 1.05em;
         }
         border-left-color: $bq-important;
     }
@@ -75,7 +76,6 @@ blockquote {
         &::before {
             content: 'Warning';
             color: $bq-warning;
-            font-size: 1.05em;
         }
         border-left-color: $bq-warning;
     }
@@ -84,9 +84,12 @@ blockquote {
         &::before {
             content: 'Caution';
             color: $bq-caution;
-            font-size: 1.05em;
         }
         border-left-color: $bq-caution;
+    }
+
+    &:not([type]) p {
+        margin: 0.5rem 0;
     }
 }
 

@@ -9,7 +9,7 @@ layout: default
 
 Made by {% mention U080HHYN0JD %} for {% mention C08K7ARJ58U %}
 
-<!-- use current timestamp for the latest version of the preview -->
+<!--- use current timestamp for the latest version of the preview -->
 ![Opengraph preview of this repository](https://opengraph.githubassets.com/{{ 'now' | date:'%s' }}/MathiasDPX/jekyll-codetheme)
 *Opengraph preview of this repository*
 
@@ -38,6 +38,8 @@ greet(you);
 ```
 
 ## blockquote like github alerts
+> "I know that I know nothing" <br>- *Socrates*
+
 > Useful information that users should know, even when skimming content.
 {: type="note"}
 
