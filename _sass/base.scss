@@ -11,6 +11,10 @@ body {
     background-color: #16191D;
 }
 
+li:has(+ li) {
+    padding-bottom: 0.1em;
+}
+
 a {
     color: #61AFEF;
 }
