@@ -1,10 +1,18 @@
-# Tonic Starter
+<a href="https://jekyll-themes.com/[GITHUB USER NAME]/[GITHUB REPOSITORY NAME]">
+  <img
+    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
+    height="20"
+    alt="Jekyll Themes Shield"
+  />
+</a>
 
-A sample [Jekyll](https://jekyllrb.com) theme designed to be a starting point for all [Tonic](https://github.com/hackclub/tonic) submissions.
+# Jekyll Codetheme
 
-This template is intentionally left incomplete; users should play through Tonic to learn how to make a full-featured theme.
+Codetheme is a theme that aim to look like vscode with color, font…
 
-# Usage
-1. At the top of this page, select **Use this template** &gt; **Create a new repository** to clone the template to your account.
-2. Create a codespace from the created repository (for beginners) or use `git clone` (for advanced users) to start pushing commits.
-3. Run `gem install jekyll`, then `jekyll serve` to see the template in action.
+## Features:
+* Images integration
+* Code highlights
+* GitHub-like blockquote
+* Have a navbar
+* Highly accessible and customisable
