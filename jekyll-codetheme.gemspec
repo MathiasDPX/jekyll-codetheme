@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name = "codetheme"
-  spec.version = "0.1.0"
+  spec.name = "jekyll-codetheme"
+  spec.version = "1.0.0"
   spec.authors = [""]
   spec.email = [""]
 
