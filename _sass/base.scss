@@ -3,12 +3,15 @@ body {
 }
 
 body {
-    background-color: #fff;
     font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     margin: auto;
     max-width: 70ch;
     color: #ececec;
     background-color: #16191D;
+
+    @media screen and (max-width: 670px) {
+        max-width: 90%;
+    }
 }
 
 li:has(+ li) {
