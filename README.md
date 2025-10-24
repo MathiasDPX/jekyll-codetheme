@@ -39,4 +39,4 @@ gem install jekyll-codetheme
 
 Made for [tonic](https://tonic.hackclub.com)!
 
-<a href="https://jekyll-themes.com/[GITHUB USER NAME]/[GITHUB REPOSITORY NAME]"><img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield"/></a>
+<a href="https://jekyll-themes.com/MathiasDPX/jekyll-codetheme"><img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield"/></a>
